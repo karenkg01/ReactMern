@@ -1,0 +1,247 @@
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ddf;
+  min-height: 100vh;
+}
+.App{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pages {
+  width: 90%;
+
+}
+#login{
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.login-right{
+  width: 40%;
+  border: 1px solid rgb(165, 161, 161);
+  border-radius: 10px;
+  padding: 10px;
+}
+.login-left{
+  width: 50%;
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a, li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #111;
+}
+
+li a:hover, li p:hover {
+  background-color: lightgray;
+}
+
+/* input[type=text], select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  resize: vertical;
+} */
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  color:black;
+  justify-content: space-between;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 0 15px;
+  text-decoration: none;
+  color:black;
+}
+
+.nav-left {
+  width: 50%;
+  color:black;
+}
+.nav-right {
+  color:black;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 30px;
+}
+.carousel-item{
+  height: 200px;
+}
+
+#footer {
+  
+  bottom: 0;
+
+  height: 0px;
+  margin: 0 auto;
+}
+.profile-image{
+  height: 10vw;
+  width:10vw;
+  border-radius: 5vw;
+  background-color: grey;
+}
+
+#profile-card{
+  height:90%;
+  width: 95%;
+}
+
+.card-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Profile-Row{
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.Profile-Row section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-buttons{
+  display: flex;
+}
+.profile-buttons button {
+  margin: .5rem;
+  border-radius: .25rem;
+  border:0px;
+}
+#profile-delete-button{
+background: rgb(228, 133, 133);
+
+}
+#profile-upload-button{
+background: rgb(127, 127, 241);
+}
+.profileImage .form-group{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid red;
+
+}
+.profile-image{
+  width:15vw;
+  height: 15vw;
+  border-radius: 7.5vw;
+}
+.card {
+  background-color:white;
+  border-radius: 10px;
+  padding:20px;
+  height:250px;
+  width: 350px;
+}
+.card-product{
+  background-color:whitesmoke;
+  border-radius: 10px;
+  padding:20px;
+  height:200px;
+  max-width: 20vw;
+  margin: 15px;
+  overflow: hidden;
+}
+#category-options-card{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  max-width: 90vw;
+  flex-direction: column;
+  margin: 50px
+}
+
+.home-products-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90vw;
+}
+
+.categories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;;
+}
+
+.top-product{
+  position: absolute;
+  top:0;
+  left:0;
+  background: yellow;
+  padding: .5rem;
+}
+.carousel-inner{
+  min-height: 60vh;
+}
+
+.flowers-wrap {
+  float:left;
+  width:20%;
+  margin:0 5% 0 0;
+  padding:0;
+  position:relative;
+}	
+.inputSearch {
+  padding: 3% 25%;
+  margin-left: 20px;
+}
+
+.rounded {
+  border-radius: 0.90rem !important;
+
+}

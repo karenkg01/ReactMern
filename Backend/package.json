@@ -1,0 +1,47 @@
+{
+  "name": "noderestfulapi",
+  "version": "1.0.0",
+  "description": "create resful api using node",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karen",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.952.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "browser-history": "^1.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "dotenv": "^10.0.0",
+    "elasticsearch": "^15.5.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "http-aws-es": "^6.0.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mime": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "multer": "^1.4.4",
+    "node-postgres": "^0.6.2",
+    "nodemon": "^2.0.12",
+    "pg": "^8.6.0",
+    "pg-sync": "^0.2.0",
+    "react-history": "^0.18.2",
+    "serverless-http": "^2.7.0",
+    "shortid": "^2.2.16",
+    "uglify-js": "^3.14.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
